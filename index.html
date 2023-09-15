@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS1</title>
+
+<script>
+
+//declaração de Varivel
+var idade
+var nome
+var sobrenome
+
+
+//sinal de "=" é de atribuição
+idade = 5
+nome = "Maria" //texto tem que está em aspas duplas ""
+sobrenome = "Silva"
+
+//console() mostra a mensagem que passamos como parametro
+console.log("mensagem de teste")
+
+
+var saudacao = "Olá mundo!"
+console.log(saudacao)
+
+/*
+soma = +
+subtração = -
+multilicação = *
+divisão = /
+exponenciação = **
+módulo (restro da divisão) %
+*/
+
+//soma de dois números
+var valor1 = 1;
+var valor2 = 2;
+var valor3 = 3;
+
+var resultadoSoma = valor1 + valor2
+console.log(resultadoSoma)
+
+//subtracao de dois números
+var valor1 = 1;
+var valor2 = 2;
+var valor3 = 3;
+
+var resultadoSubtracao = valor3 - valor2
+console.log(resultadoSubtracao)
+
+//multiplicação de dois números
+var valor1 = 1;
+var valor2 = 2;
+var valor3 = 3;
+
+var resultadoMultiplicacao = valor3 * valor2
+console.log(resultadoMultiplicacao)
+
+//divisão de dois números
+var valor1 = 10;
+var valor2 = 25;
+var valor3 = 39;
+
+var resultadoDivisao = valor3 / valor1
+console.log(resultadoDivisao)
+
+
+//variaveis de tipo TEXTO
+
+var texto1 = "CODER"
+var texto2 = "HOUSE"
+var texto3 = "  "
+
+//concatenar texto 1 e texto2
+var resultado1 = texto1 + texto3 + texto2 //quando utilizamos o (+) ele realiza a junção dos dados
+console.log(resultado1)
+
+var nome = "Luis"
+var espaco = " "
+var sobrenome = " Santos"
+var ano = 2023
+var idade = 21
+
+var nomeCompleto = nome + espaco + sobrenome
+console.log(nomeCompleto)
+
+var anoNasci = ano - idade
+console.log(anoNasci)
+
+/*
+//Prompt - abrirá ao usuario uma caixa de dialogo
+var nomeInserido = prompt("Insira seu nome")
+console.log(nomeInserido)
+
+//Alert - mostra uma janela com alerta
+alert("Não informe seu nome, pode ser um golpe")
+
+//PARSE
+
+var stringNumero = prompt("Insira um número")
+var valorNumerico = parseInt(stringNumero)
+console.log(valorNumerico)
+*/
+var texto1 = "Olá, "
+var espaco = " "
+var nomeInserido = prompt("Insira seu nome")
+var sobrenomeInserido = prompt("Insira seu sobrenome")
+var saudacao = texto1 +  nomeInserido + espaco + sobrenomeInserido
+console.log(saudacao)
+
+alert(saudacao)
+
+var texto2 = ", você tem "
+var texto3 = " anos"
+var infoNasci = prompt("Em que ano você nasceu?")
+var nasciAno = parseInt(infoNasci)
+var infoAno = prompt("Em que ano estamos?")
+var anoAtual = parseInt(infoAno)
+var idadeAtual = infoAno - infoNasci
+var infoCompleta = saudacao + texto2 + idadeAtual + texto3
+console.log(idadeAtual)
+ alert(infoCompleta)
+
+
+
+
+
+
+
+</script>
+</head>
+
+<body> 
+
+</body>
+</html>
